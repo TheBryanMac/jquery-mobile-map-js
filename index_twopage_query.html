@@ -194,7 +194,7 @@
                         renderer.addBreak(400, Infinity, new SimpleFillSymbol().setColor(new Color([255, 0, 0, 0.5])));
 
                         var infoTemplate = new InfoTemplate("${NAME}", "${*}");
-                        var featureLayer = new FeatureLayer("http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Demographics/ESRI_Census_USA/MapServer/3", {
+                        var featureLayer = new FeatureLayer("//sampleserver1.arcgisonline.com/ArcGIS/rest/services/Demographics/ESRI_Census_USA/MapServer/3", {
                             mode: FeatureLayer.MODE_SNAPSHOT,
                             outFields: ["*"],
                             infoTemplate: infoTemplate
